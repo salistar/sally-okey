@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "Okey",
+    "slug": "okey",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": { "image": "./assets/splash.png", "resizeMode": "contain", "backgroundColor": "#0891B2" },
+    "scheme": "sallycards",
+    "ios": { "bundleIdentifier": "com.sallycards.okey", "supportsTablet": true },
+    "android": { "package": "com.sallycards.okey", "adaptiveIcon": { "foregroundImage": "./assets/adaptive-icon.png", "backgroundColor": "#0891B2" }, "usesCleartextTraffic": true },
+    "plugins": ["expo-router", "expo-localization", "expo-font"],
+    "newArchEnabled": true, "extra": { "eas": { "projectId": "sallycards-okey" }, "usesCleartextTraffic": true }
+  }
+}
